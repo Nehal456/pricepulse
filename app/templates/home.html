@@ -1,54 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PricePulse – Smart Price Tracker</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background: #f4f4f4;
-    }
-    h1 {
-      color: #222;
-      text-align: center;
-    }
-    form {
-      max-width: 500px;
-      margin: 2rem auto;
-      background: white;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    input[type="text"] {
-      width: 100%;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    button {
-      width: 100%;
-      padding: 1rem;
-      background-color: #28a745;
-      border: none;
-      color: white;
-      font-size: 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #218838;
-    }
-  </style>
-</head>
-<body>
-  <h1>🔍 PricePulse</h1>
-  <form action="/search" method="POST">
-    <input type="text" name="product_name" placeholder="Enter product (e.g. iPhone 14)" required />
-    <button type="submit">Track Prices</button>
-  </form>
-</body>
-</html>
+<form method="POST" action="/" class="space-y-4">
+  <input type="text" name="query" placeholder="Enter product name" required
+         class="w-full p-2 border rounded-lg shadow" />
+  <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Compare Prices</button>
+</form>
+
+{% if amazon_results or flipkart_results %}
+<h2 class="text-xl font-bold mt-6">Results</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+  {% for result in amazon_results %}
+    <div class="p-4 border rounded shadow bg-white">
+      <h3 class="text-lg font-semibold">{{ result.title }}</h3>
+      <p>Price: ₹{{ result.price }}</p>
+      <a href="{{ result.link }}" target="_blank" class="text-blue-600 underline">View on Amazon</a>
+    </div>
+  {% endfor %}
+  {% for result in flipkart_results %}
+    <div class="p-4 border rounded shadow bg-white">
+      <h3 class="text-lg font-semibold">{{ result.title }}</h3>
+      <p>Price: ₹{{ result.price }}</p>
+      <a href="{{ result.link }}" target="_blank" class="text-blue-600 underline">View on Flipkart</a>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
