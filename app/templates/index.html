@@ -1,10 +1,31 @@
-<!-- app/templates/index.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>PricePulse</title>
-</head>
-<body>
-    <h1>Welcome to PricePulse</h1>
-</body>
-</html>
+<form action="/" method="get" class="mb-6">
+  <input type="text" name="query" placeholder="Search for a product..." required class="w-full p-2 border rounded shadow">
+  
+  <!-- Filters -->
+  <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div>
+      <label>Brand:</label>
+      <input type="text" name="brand" class="w-full p-1 border rounded">
+    </div>
+    <div>
+      <label>Min Price:</label>
+      <input type="number" name="min_price" class="w-full p-1 border rounded">
+    </div>
+    <div>
+      <label>Max Price:</label>
+      <input type="number" name="max_price" class="w-full p-1 border rounded">
+    </div>
+    <div>
+      <label>Website:</label>
+      <select name="site" class="w-full p-1 border rounded">
+        <option value="">All</option>
+        <option value="amazon">Amazon</option>
+        <option value="flipkart">Flipkart</option>
+      </select>
+    </div>
+  </div>
+
+  <button type="submit" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+    🔍 Search
+  </button>
+</form>

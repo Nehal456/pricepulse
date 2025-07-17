@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "category": "electronics",
+      "price": 78999
+    },
+    {
+      "id": 2,
+      "name": "Cotton T-Shirt",
+      "brand": "Zara",
+      "category": "garments",
+      "price": 799
+    },
+    {
+      "id": 3,
+      "name": "Yoga Mat",
+      "brand": "Decathlon",
+      "category": "fitness",
+      "price": 999
+    },
+    {
+      "id": 4,
+      "name": "Pressure Cooker",
+      "brand": "Prestige",
+      "category": "kitchen",
+      "price": 2399
+    },
+    {
+      "id": 5,
+      "name": "Almonds - 500g",
+      "brand": "BigBasket",
+      "category": "groceries",
+      "price": 349
+    },
+    {
+      "id": 6,
+      "name": "Face Moisturizer",
+      "brand": "Nivea",
+      "category": "beauty",
+      "price": 299
+    },
+    {
+      "id": 7,
+      "name": "Baby Diapers - M size",
+      "brand": "Pampers",
+      "category": "baby",
+      "price": 699
+    },
+    {
+      "id": 8,
+      "name": "Remote Control Car",
+      "brand": "ToyZone",
+      "category": "toys",
+      "price": 1299
+    },
+    {
+      "id": 9,
+      "name": "Bike Helmet",
+      "brand": "Steelbird",
+      "category": "automobile",
+      "price": 1199
+    },
+    {
+      "id": 10,
+      "name": "Notebook - 200 pages",
+      "brand": "Classmate",
+      "category": "stationery",
+      "price": 89
+    }
+  ]
+  

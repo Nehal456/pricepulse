@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Earbuds",
+        "brand": "Samsung",
+        "category": "electronics",
+        "price": 11335
+    },
+    {
+        "id": 2,
+        "name": "Apple Tablet",
+        "brand": "Apple",
+        "category": "electronics",
+        "price": 37515
+    },
+    {
+        "id": 3,
+        "name": "Apple Smartphone",
+        "brand": "Apple",
+        "category": "electronics",
+        "price": 52786
+    },
+    {
+        "id": 4,
+        "name": "Xiaomi Smartphone",
+        "brand": "Xiaomi",
+        "category": "electronics",
+        "price": 5284
+    },
+    {
+        "id": 5,
+        "name": "OnePlus Laptop",
+        "brand": "OnePlus",
+        "category": "electronics",
+        "price": 98152
+    },
+    {
+        "id": 6,
+        "name": "OnePlus Earbuds",
+        "brand": "OnePlus",
+        "category": "electronics",
+        "price": 66835
+    },
+    {
+        "id": 7,
+        "name": "Sony Tablet",
+        "brand": "Sony",
+        "category": "electronics",
+        "price": 47004
+    },
+    {
+        "id": 8,
+        "name": "OnePlus Tablet",
+        "brand": "OnePlus",
+        "category": "electronics",
+        "price": 13557
+    },
+    {
+        "id": 9,
+        "name": "Samsung Earbuds",
+        "brand": "Samsung",
+        "category": "electronics",
+        "price": 18983
+    },
+    {
+        "id": 10,
+        "name": "Apple Earbuds",
+        "brand": "Apple",
+        "category": "electronics",
+        "price": 55770
+    },
+    {
+        "id": 11,
+        "name": "Nike Socks",
+        "brand": "Nike",
+        "category": "garments",
+        "price": 4341
+    },
+    {
+        "id": 12,
+        "name": "H&M Jacket",
+        "brand": "H&M",
+        "category": "garments",
+        "price": 51
+    },
+    {
+        "id": 13,
+        "name": "Levi's Kurti",
+        "brand": "Levi's",
+        "category": "garments",
+        "price": 9732
+    },
+    {
+        "id": 14,
+        "name": "H&M Jacket",
+        "brand": "H&M",
+        "category": "garments",
+        "price": 7414
+    },
+    {
+        "id": 15,
+        "name": "Levi's Kurti",
+        "brand": "Levi's",
+        "category": "garments",
+        "price": 1177
+    },
+    {
+        "id": 16,
+        "name": "Levi's Sweater",
+        "brand": "Levi's",
+        "category": "garments",
+        "price": 9542
+    },
+    {
+        "id": 17,
+        "name": "Puma Sweater",
+        "brand": "Puma",
+        "category": "garments",
+        "price": 5416
+    },
+    {
+        "id": 18,
+        "name": "Puma Jacket",
+        "brand": "Puma",
+        "category": "garments",
+        "price": 8942
+    },
+    {
+        "id": 19,
+        "name": "Nike Socks",
+        "brand": "Nike",
+        "category": "garments",
+        "price": 7046
+    },
+    {
+        "id": 20,
+        "name": "Zara T-Shirt",
+        "brand": "Zara",
+        "category": "garments",
+        "price": 8270
+    },
+    {
+        "id": 21,
+        "name": "HRX Treadmill",
+        "brand": "HRX",
+        "category": "fitness",
+        "price": 930
+    },
+    {
+        "id": 22,
+        "name": "Fitkit Yoga Mat",
+        "brand": "Fitkit",
+        "category": "fitness",
+        "price": 5328
+    },
+    {
+        "id": 23,
+        "name": "Decathlon Yoga Mat",
+        "brand": "Decathlon",
+        "category": "fitness",
+        "price": 342
+    },
+    {
+        "id": 24,
+        "name": "Decathlon Dumbbells",
+        "brand": "Decathlon",
+        "category": "fitness",
+        "price": 8478
+    },
+    {
+        "id": 25,
+        "name": "HRX Dumbbells",
+        "brand": "HRX",
+        "category": "fitness",
+        "price": 3370
+    },
+    {
+        "id": 26,
+        "name": "HRX Skipping Rope",
+        "brand": "HRX",
+        "category": "fitness",
+        "price": 5351
+    },
+    {
+        "id": 27,
+        "name": "Fitkit Dumbbells",
+        "brand": "Fitkit",
+        "category": "fitness",
+        "price": 6174
+    },
+    {
+        "id": 28,
+        "name": "Fitkit Dumbbells",
+        "brand": "Fitkit",
+        "category": "fitness",
+        "price": 3843
+    },
+    {
+        "id": 29,
+        "name": "HRX Fitness Tracker",
+        "brand": "HRX",
+        "category": "fitness",
+        "price": 4376
+    },
+    {
+        "id": 30,
+        "name": "Boldfit Yoga Mat",
+        "brand": "Boldfit",
+        "category": "fitness",
+        "price": 6039
+    },
+    {
+        "id": 31,
+        "name": "BigBasket Milk 1L",
+        "brand": "BigBasket",
+        "category": "groceries",
+        "price": 1170
+    },
+    {
+        "id": 32,
+        "name": "Grofers Honey",
+        "brand": "Grofers",
+        "category": "groceries",
+        "price": 9737
+    },
+    {
+        "id": 33,
+        "name": "Grofers Milk 1L",
+        "brand": "Grofers",
+        "category": "groceries",
+        "price": 5339
+    },
+    {
+        "id": 34,
+        "name": "Grofers Rice 5kg",
+        "brand": "Grofers",
+        "category": "groceries",
+        "price": 5342
+    },
+    {
+        "id": 35,
+        "name": "BigBasket Eggs 12pcs",
+        "brand": "BigBasket",
+        "category": "groceries",
+        "price": 8484
+    },
+    {
+        "id": 36,
+        "name": "Grofers Honey",
+        "brand": "Grofers",
+        "category": "groceries",
+        "price": 4680
+    },
+    {
+        "id": 37,
+        "name": "BigBasket Milk 1L",
+        "brand": "BigBasket",
+        "category": "groceries",
+        "price": 7632
+    },
+    {
+        "id": 38,
+        "name": "AmazonFresh Almonds 500g",
+        "brand": "AmazonFresh",
+        "category": "groceries",
+        "price": 2321
+    },
+    {
+        "id": 39,
+        "name": "AmazonFresh Eggs 12pcs",
+        "brand": "AmazonFresh",
+        "category": "groceries",
+        "price": 7625
+    },
+    {
+        "id": 40,
+        "name": "BigBasket Wheat Flour",
+        "brand": "BigBasket",
+        "category": "groceries",
+        "price": 5112
+    },
+    {
+        "id": 41,
+        "name": "Prestige Microwave Oven",
+        "brand": "Prestige",
+        "category": "kitchen",
+        "price": 4268
+    },
+    {
+        "id": 42,
+        "name": "Butterfly Frying Pan",
+        "brand": "Butterfly",
+        "category": "kitchen",
+        "price": 4438
+    },
+    {
+        "id": 43,
+        "name": "Butterfly Pressure Cooker",
+        "brand": "Butterfly",
+        "category": "kitchen",
+        "price": 4932
+    },
+    {
+        "id": 44,
+        "name": "Pigeon Frying Pan",
+        "brand": "Pigeon",
+        "category": "kitchen",
+        "price": 6826
+    },
+    {
+        "id": 45,
+        "name": "Prestige Pressure Cooker",
+        "brand": "Prestige",
+        "category": "kitchen",
+        "price": 8850
+    },
+    {
+        "id": 46,
+        "name": "Borosil Knife Set",
+        "brand": "Borosil",
+        "category": "kitchen",
+        "price": 5427
+    },
+    {
+        "id": 47,
+        "name": "Butterfly Toaster",
+        "brand": "Butterfly",
+        "category": "kitchen",
+        "price": 4516
+    },
+    {
+        "id": 48,
+        "name": "Butterfly Microwave Oven",
+        "brand": "Butterfly",
+        "category": "kitchen",
+        "price": 6930
+    },
+    {
+        "id": 49,
+        "name": "Pigeon Knife Set",
+        "brand": "Pigeon",
+        "category": "kitchen",
+        "price": 6015
+    },
+    {
+        "id": 50,
+        "name": "Prestige Frying Pan",
+        "brand": "Prestige",
+        "category": "kitchen",
+        "price": 9556
+    },
+    {
+        "id": 51,
+        "name": "Mamaearth Shampoo",
+        "brand": "Mamaearth",
+        "category": "beauty",
+        "price": 9465
+    },
+    {
+        "id": 52,
+        "name": "Lakme Sunscreen",
+        "brand": "Lakme",
+        "category": "beauty",
+        "price": 8138
+    },
+    {
+        "id": 53,
+        "name": "Dove Moisturizer",
+        "brand": "Dove",
+        "category": "beauty",
+        "price": 6889
+    },
+    {
+        "id": 54,
+        "name": "Mamaearth Shampoo",
+        "brand": "Mamaearth",
+        "category": "beauty",
+        "price": 8511
+    },
+    {
+        "id": 55,
+        "name": "Dove Shampoo",
+        "brand": "Dove",
+        "category": "beauty",
+        "price": 2036
+    },
+    {
+        "id": 56,
+        "name": "Lakme Sunscreen",
+        "brand": "Lakme",
+        "category": "beauty",
+        "price": 4876
+    },
+    {
+        "id": 57,
+        "name": "Nivea Lipstick",
+        "brand": "Nivea",
+        "category": "beauty",
+        "price": 2784
+    },
+    {
+        "id": 58,
+        "name": "Mamaearth Lipstick",
+        "brand": "Mamaearth",
+        "category": "beauty",
+        "price": 6539
+    },
+    {
+        "id": 59,
+        "name": "Nivea Face Wash",
+        "brand": "Nivea",
+        "category": "beauty",
+        "price": 4378
+    },
+    {
+        "id": 60,
+        "name": "Lakme Moisturizer",
+        "brand": "Lakme",
+        "category": "beauty",
+        "price": 7855
+    },
+    {
+        "id": 61,
+        "name": "Johnson's Feeding Bottle",
+        "brand": "Johnson's",
+        "category": "baby",
+        "price": 5310
+    },
+    {
+        "id": 62,
+        "name": "Pampers Baby Shampoo",
+        "brand": "Pampers",
+        "category": "baby",
+        "price": 5631
+    },
+    {
+        "id": 63,
+        "name": "Pampers Baby Wipes",
+        "brand": "Pampers",
+        "category": "baby",
+        "price": 2888
+    },
+    {
+        "id": 64,
+        "name": "Huggies Baby Shampoo",
+        "brand": "Huggies",
+        "category": "baby",
+        "price": 8554
+    },
+    {
+        "id": 65,
+        "name": "Huggies Baby Diapers",
+        "brand": "Huggies",
+        "category": "baby",
+        "price": 3666
+    },
+    {
+        "id": 66,
+        "name": "Huggies Feeding Bottle",
+        "brand": "Huggies",
+        "category": "baby",
+        "price": 2941
+    },
+    {
+        "id": 67,
+        "name": "Huggies Baby Wipes",
+        "brand": "Huggies",
+        "category": "baby",
+        "price": 2871
+    },
+    {
+        "id": 68,
+        "name": "Pampers Baby Shampoo",
+        "brand": "Pampers",
+        "category": "baby",
+        "price": 1055
+    },
+    {
+        "id": 69,
+        "name": "Pampers Baby Shampoo",
+        "brand": "Pampers",
+        "category": "baby",
+        "price": 7382
+    },
+    {
+        "id": 70,
+        "name": "Huggies Baby Shampoo",
+        "brand": "Huggies",
+        "category": "baby",
+        "price": 4435
+    },
+    {
+        "id": 71,
+        "name": "Lego Puzzle",
+        "brand": "Lego",
+        "category": "toys",
+        "price": 4828
+    },
+    {
+        "id": 72,
+        "name": "Lego Action Figure",
+        "brand": "Lego",
+        "category": "toys",
+        "price": 9186
+    },
+    {
+        "id": 73,
+        "name": "Lego Action Figure",
+        "brand": "Lego",
+        "category": "toys",
+        "price": 531
+    },
+    {
+        "id": 74,
+        "name": "ToyZone Remote Car",
+        "brand": "ToyZone",
+        "category": "toys",
+        "price": 7925
+    },
+    {
+        "id": 75,
+        "name": "ToyZone Action Figure",
+        "brand": "ToyZone",
+        "category": "toys",
+        "price": 8148
+    },
+    {
+        "id": 76,
+        "name": "ToyZone Puzzle",
+        "brand": "ToyZone",
+        "category": "toys",
+        "price": 3790
+    },
+    {
+        "id": 77,
+        "name": "ToyZone Remote Car",
+        "brand": "ToyZone",
+        "category": "toys",
+        "price": 5166
+    },
+    {
+        "id": 78,
+        "name": "Lego Action Figure",
+        "brand": "Lego",
+        "category": "toys",
+        "price": 3076
+    },
+    {
+        "id": 79,
+        "name": "Funskool Lego Set",
+        "brand": "Funskool",
+        "category": "toys",
+        "price": 8922
+    },
+    {
+        "id": 80,
+        "name": "HotWheels Puzzle",
+        "brand": "HotWheels",
+        "category": "toys",
+        "price": 7223
+    },
+    {
+        "id": 81,
+        "name": "Autofy Car Vacuum",
+        "brand": "Autofy",
+        "category": "automobile",
+        "price": 9057
+    },
+    {
+        "id": 82,
+        "name": "Steelbird Tyre Inflator",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 1693
+    },
+    {
+        "id": 83,
+        "name": "Steelbird Tyre Inflator",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 1553
+    },
+    {
+        "id": 84,
+        "name": "Steelbird Tyre Inflator",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 1122
+    },
+    {
+        "id": 85,
+        "name": "Steelbird Seat Cover",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 9692
+    },
+    {
+        "id": 86,
+        "name": "Steelbird Phone Holder",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 8563
+    },
+    {
+        "id": 87,
+        "name": "Steelbird Phone Holder",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 4166
+    },
+    {
+        "id": 88,
+        "name": "Steelbird Car Vacuum",
+        "brand": "Steelbird",
+        "category": "automobile",
+        "price": 7420
+    },
+    {
+        "id": 89,
+        "name": "Michelin Seat Cover",
+        "brand": "Michelin",
+        "category": "automobile",
+        "price": 8142
+    },
+    {
+        "id": 90,
+        "name": "Michelin Tyre Inflator",
+        "brand": "Michelin",
+        "category": "automobile",
+        "price": 5695
+    },
+    {
+        "id": 91,
+        "name": "Faber-Castell Notebook",
+        "brand": "Faber-Castell",
+        "category": "stationery",
+        "price": 6049
+    },
+    {
+        "id": 92,
+        "name": "Camlin Notebook",
+        "brand": "Camlin",
+        "category": "stationery",
+        "price": 69
+    },
+    {
+        "id": 93,
+        "name": "Faber-Castell Highlighters",
+        "brand": "Faber-Castell",
+        "category": "stationery",
+        "price": 6567
+    },
+    {
+        "id": 94,
+        "name": "Classmate Sticky Notes",
+        "brand": "Classmate",
+        "category": "stationery",
+        "price": 8200
+    },
+    {
+        "id": 95,
+        "name": "Faber-Castell Pen Set",
+        "brand": "Faber-Castell",
+        "category": "stationery",
+        "price": 8435
+    },
+    {
+        "id": 96,
+        "name": "Faber-Castell Pen Set",
+        "brand": "Faber-Castell",
+        "category": "stationery",
+        "price": 234
+    },
+    {
+        "id": 97,
+        "name": "Classmate Stapler",
+        "brand": "Classmate",
+        "category": "stationery",
+        "price": 3983
+    },
+    {
+        "id": 98,
+        "name": "Faber-Castell Pen Set",
+        "brand": "Faber-Castell",
+        "category": "stationery",
+        "price": 3355
+    },
+    {
+        "id": 99,
+        "name": "Faber-Castell Highlighters",
+        "brand": "Faber-Castell",
+        "category": "stationery",
+        "price": 1956
+    },
+    {
+        "id": 100,
+        "name": "Camlin Stapler",
+        "brand": "Camlin",
+        "category": "stationery",
+        "price": 4415
+    }
+]
