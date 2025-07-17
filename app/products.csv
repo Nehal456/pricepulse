@@ -1,0 +1,13 @@
+import csv
+from flask import request, redirect
+
+@product_bp.route('/add-from-search', methods=['POST'])
+def add_from_search():
+    title = request.form['title']
+    url = request.form['url']
+
+    with open('products.csv', 'a', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow([title, url])
+
+    return redirect('/')

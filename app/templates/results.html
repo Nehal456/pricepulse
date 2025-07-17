@@ -1,0 +1,13 @@
+<h2>Amazon Results</h2>
+<ul>
+  {% for item in amazon_results %}
+    <li><a href="{{ item.link }}" target="_blank">{{ item.title }} - ₹{{ item.price }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>Flipkart Results</h2>
+<ul>
+  {% for item in flipkart_results %}
+    <li><a href="{{ item.link }}" target="_blank">{{ item.title }} - ₹{{ item.price }}</a></li>
+  {% endfor %}
+</ul>
